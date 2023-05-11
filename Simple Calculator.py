@@ -17,6 +17,7 @@ def calculate():
                 print(first / second)
             else:
                 print("Oops! The operator you entered is invalid. Please try again")
+    #Create error messages if user's input are invalid or user divides with zero
     except ZeroDivisionError:
         print("You can't divide with zero! (Have you tried dividing 0 cookies you baked among your 0 friends?). Please try again.")
     except ValueError:
@@ -25,8 +26,9 @@ def calculate():
         print("An unexpected error has occured. Please try again.")
     else:
         break
-#Create error messages if user's input are invalid or user divides with zero
 #Create an empty variable for the while loop to be used later
+response = ' '
 #Print a welcome message
+print("Welcome to Callenculator, created by John Allen Lorena. Please be advised that error messages may be a bit harsh. Use this calculator at your own risk")
 #Use the while loop to ask the user if they would like to use the program again
 #Use if statements depending on the user's response
