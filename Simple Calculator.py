@@ -1,4 +1,6 @@
 #Create a function for the calculator
+def calculate():
+    print("Let's calculate!")
 #Use try method to ask the user for numbers and operators
 #Use if statements for solving the two numbers depending on the operator that user has inputted
 #Create error messages if user's input are invalid or user divides with zero
