@@ -32,15 +32,18 @@ def calculate():
 response = ' '
 #Print a welcome message
 print("Welcome to Callenculator, created by John Allen Lorena. Please be advised that error messages may be a bit harsh. Use this calculator at your own risk")
+#Start the function
+calculate()
 #Use the while loop to ask the user if they would like to use the program again
 while response != 'no':
-    calculate()
     response = str(input('Would you like to try the calculator once more? (Please answer with "yes" or "no" : '))
     #Use if statements depending on the user's response
     if response == 'yes':
-        print("Understood.")
+        calculate()
     elif response == 'no':
         print("Thank you!")
         break
     else:
         print('The only valid responses are "yes" and "no". Please try again')
+    
+
