@@ -17,14 +17,14 @@ def calculate():
                 print(first / second)
             else:
                 print("Oops! The operator you entered is invalid. Please try again")
-        except ZeroDivisionError:
-            print("Error: 0 cannot be used as a divisor. Please try again.")
-        except ValueError:
-            print("The input is not a number. Please try again.")
-        except:
-            print("An unexpected error has occured. Please try again.")
-        else:
-            break
+    except ZeroDivisionError:
+        print("You can't divide with zero! (Have you tried dividing 0 cookies you baked among your 0 friends?). Please try again.")
+    except ValueError:
+        print("Looks like someone doesn't know the difference between their ABCs and 123s (The input is not a number. Please try again.)")
+    except:
+        print("An unexpected error has occured. Please try again.")
+    else:
+        break
 #Create error messages if user's input are invalid or user divides with zero
 #Create an empty variable for the while loop to be used later
 #Print a welcome message
