@@ -34,4 +34,11 @@ print("Welcome to Callenculator, created by John Allen Lorena. Please be advised
 while response != 'no':
     calculate()
     response = str(input('Would you like to try the calculator once more? (Please answer with "yes" or "no" : '))
-#Use if statements depending on the user's response
+    #Use if statements depending on the user's response
+    if response == 'yes':
+        print("Understood.")
+    elif response == 'no':
+        print("Thank you!")
+        break
+    else:
+        print('The only valid responses are "yes" and "no". Please try again')
