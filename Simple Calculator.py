@@ -6,7 +6,17 @@ def calculate():
         first = float(input("Enter any number (Can be a whole number or a decimal): "))
         op = str(input('Enter an operator (Must be plus "+", minus "-", times "*", or divide "/": '))
         second = float(input("Enter another number (Can be a whole number or a decimal): "))
-#Use if statements for solving the two numbers depending on the operator that user has inputted
+        #Use if statements for solving the two numbers depending on the operator that user has inputted
+        if op == '+':
+                print(first + second)
+            elif op == '-':
+                print(first - second)
+            elif op == '*':
+                print(first * second)
+            elif op == '/':
+                print(first / second)
+            else:
+                print("Oops! The operator you entered is invalid. Please try again")
 #Create error messages if user's input are invalid or user divides with zero
 #Create an empty variable for the while loop to be used later
 #Print a welcome message
