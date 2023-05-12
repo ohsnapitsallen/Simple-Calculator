@@ -1,1 +1,2 @@
 # Simple-Calculator
+Hello, My name is John Allen Lorena and I made this calculator all for fun. I call this the Callenculator with my nickname in the middle of the word "calculator". To make things interesting, I added some witty error messages which makes my calculator a little bit "sassy" to say the list but not in a way that it would offend people. Some of the error messages are a reference from pop culture (such as ABC by The Jackson 5). The calculator can process not only whole numbers but decimal numbers as well. With that said, Hope you like my calculator :).
